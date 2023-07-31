@@ -1,8 +1,8 @@
-// Pattern Printing: Write a C program to print the following pattern:
+//Pattern Printing: Write a C program to print the following pattern:
 
-// Input: N = 4
+//Input: N = 4
 
-// Output: 1 22 333 4444
+//Output: 1 1 2 1 2 3 1 2 3 4
 
 #include<stdio.h>
 int main(){
@@ -11,7 +11,7 @@ int main(){
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         for(int j=1;j<=i;j++){
-            printf("%d ",i);
+            printf("%d ",j);
         }
         printf("\n");
     }
